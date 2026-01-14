@@ -62,4 +62,4 @@ TERMINAL:
 
 - find . -name (name of file)
 - ls -lh  - (gives the file name, info, content but changes the size to a more compiled form (so 12999 byte becomes 13kb))'
-'
+

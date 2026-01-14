@@ -36,7 +36,7 @@ public class LesStudenter {
             while (leser.hasNext()) {
                 String[] student = leser.nextLine().split(",");
                 if(student.length == 3){
-                    Student s = new Student(Integer.parseInt(student[0]), student[1], student[2]);
+                    Student s = new Student(Integer.parseInt(student[0].trim()), student[1].trim(), student[2].trim());
                     System.out.println(s.toString());
                 }
             }
