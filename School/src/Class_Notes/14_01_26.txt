@@ -63,3 +63,14 @@ TERMINAL:
 - find . -name (name of file)
 - ls -lh  - (gives the file name, info, content but changes the size to a more compiled form (so 12999 byte becomes 13kb))'
 
+LOCAL REPO:
+Id CommandLine
+  -- -----------
+   4 cd fil-som-database-KokosMjolkeKua
+   5 ls
+   6 cd oppgave1
+   7 javac LesStudenter.java
+   8 ls
+   9 java LesStudenter.class
+  10 pwd
+  11 java LesStudenter ../testdata/data/studenter_korrekt.csv
