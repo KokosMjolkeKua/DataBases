@@ -63,7 +63,7 @@ TERMINAL:
 - find . -name (name of file)
 - ls -lh  - (gives the file name, info, content but changes the size to a more compiled form (so 12999 byte becomes 13kb))'
 
-LOCAL REPO:
+LOCAL REPO: (GIT-Hub) kan implementeres i terminal
 Id CommandLine
   -- -----------
    4 cd fil-som-database-KokosMjolkeKua
@@ -74,3 +74,5 @@ Id CommandLine
    9 java LesStudenter.class
   10 pwd
   11 java LesStudenter ../testdata/data/studenter_korrekt.csv
+
+

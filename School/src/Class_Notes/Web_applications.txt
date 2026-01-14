@@ -1,0 +1,52 @@
+    WEBAPLIKASJONER:
+     eks:
+        gmail, facebook, canvas, nettbank '
+        (henter informasjonen/applikasjonen fra et annet sted)
+
+    Frontend - det du ser og kan react med
+    Backend - (behind the scene) hvordan ting fungere, hva skjer basert på dine handlinger
+
+    Trelagsmodell:
+    - applikasjon (utseende)
+    - Operativsystem
+    - hardwar/maskinvare
+
+    API: (REST API - en måte å designe kalle metodene)
+    - GET
+    - ADD
+    - POST
+
+
+    JSON:
+    - lett å lese for maskiner og lett og lese for mennesker
+    - det er en oversetter som gjør dt leselig for både
+        brukeren og datamaskinen som skal utføre programmet
+    - mer fleksibelt en .csv
+
+    LAMP(Klassik)
+    - Linux (OS)
+    - Apache (Webserver)
+    - MySQL (Database)
+    - PHP (Backend)
+
+    MERN(moderne)
+    - MongoDB (Database)
+    - Express (Backend)
+    - React (Frontend)
+    - Node.js (Runtime)
+
+    Vår Stack(Uke 3)
+    - OS : windows
+    - Server : java HttpServer
+    - Data : csv filer
+    - Frontend _ HTML/JS
+
+
+    SQL
+       Databaser, mye brukt
+       har en del injection metoder
+       som kan brukes for å stjele dataer.
+
+
+    Sikkerhet - (Input Validering)
+    - regel: stol ALDRI på input fra brukeren
