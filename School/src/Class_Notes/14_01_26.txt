@@ -1,0 +1,65 @@
+Agenda:
+- Repetisjon fra forrige uke
+- Kort om filsystemer DATA1500-filsystemer.pptx Download DATA1500-filsystemer.pptx
+- Kort om GitHub (demo)
+- Gjennomgang av utvalgte oppgaver fra Uke 2 (demo)
+- Quiz før gjennomgang av dagens tema: Før-Quiz 02: webapps
+- Dagens tema: Webapplikasjoner: Webapplikasjoner_ Fra_Frontend_til_Backend.pptx Download Webapplikasjoner_ Fra_Frontend_til_Backend.pptx
+- Gjennomgang av et nytt oppgavesett: https://github.com/digitnow/data1500-oving-02Links to an external site.
+- Quiz etter gjennomgang av dagens tema: Etter-Quiz 02: webapp
+- Discord under forelesninger: Discord
+
+
+
+FILSYSTEMER:
+- dataer lagret på ett trestruktur (root - deler seg i mapper - alle mappene deler seg i flere)
+  Det ser ut som en rot til et tre.
+- mapper og filer er forskjellig men nesten helt like.
+
+- i windows bruker vi "backslash" - C:\ (for å være innerst inne i disken)
+    eks:
+        cd Desktop - (for å komme seg til destinasjoner)
+        cd Docker
+        cd C:\Users\ingas - (for å gå direkte til mappen/i windows)
+
+- men i linux og unix har du "slash" - /root for example (how it is in docker)
+    eks:
+        cd Desktop
+        cd Docker
+        cd /root - (will take you back to the root in docker)
+
+
+TIPS!
+● UNNGÅ å bruke mellomrom i filnavn:
+    ○ studenter liste.csv ✘
+    ○ studenter-liste.csv ✓eller studenter_liste.csv ✓
+● UNNGÅ store bokstaver i navn for kildekode-filer
+    ○ Java-filer er et unntak, da filen må ha samme navn som klassen
+    ○ studenter-api-versjon-3.py ✓er bedre enn
+    ○ StudenterAPIVersjon3.py ✘
+● SPESIELT VIKTIG! UNNGÅ å bruke mellomrom i mappenavn:
+    ○ C:\Users\brukernavn\Saved Games ✘
+    ○ C:\Users\brukernavn\SavedGames ✓eller C:\Users\brukernavn\saved-games ✓(prøv helst å unngå store bokstaver)
+● VÆR OPPMERKSOM på aliaser som mappenavn i Filutforsker (Windows) / Finder (macOS) applikasjon
+    ○ Eksempel: “Denne PCen -> Nedlastinger” i Filutforsker i Windows er en alias for C:\Users\brukernavn\Downloads
+    brukernavn - er navn til din konto på din datamaskin (selv om det er kun du som bruker din datamaskin, er det
+    vanlig å definere et eget brukernavn for din kontoen, både på Windows og macOS plattformer)
+    aliaser avhenger også av hvilket språk er benyttet i den versjonen av operativsystemet, som er installert på din
+    datamaskin
+
+
+GITHUB:
+- SSH keys to easily get access to a repository and be able to push
+- its also important
+- can clone in terminal/check how to do again
+
+
+
+TERMINAL:
+- pwd (look where you are)
+- ls (list content in folder/directory)
+- ls -l  - (list items in terminal with info, content and when it was created)
+
+- find . -name (name of file)
+- ls -lh  - (gives the file name, info, content but changes the size to a more compiled form (so 12999 byte becomes 13kb))'
+'
